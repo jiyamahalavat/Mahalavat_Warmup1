@@ -11,12 +11,12 @@ const endMessage = document.getElementById("endMessage");
 function advanceScene() {
 
     if (sceneNumber === 1) {
-        image.src = "images/forest2.jpg";
+        image.src = "forest2.jpg";
         caption.textContent = "You walk deeper. The trees grow taller and the light dims.";
         sceneNumber++;
 
     } else if (sceneNumber === 2) {
-        image.src = "images/forest3.jpg";
+        image.src = "forest3.jpg";
         caption.textContent = "You reach a quiet clearing surrounded by ancient trees.";
         sceneNumber++;
 
@@ -28,4 +28,5 @@ function advanceScene() {
 
 // Attach event listener
 button.addEventListener("click", advanceScene);
+
 
